@@ -1,0 +1,47 @@
+<!--
+ Copyright (c) 2014, 2021, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Dashboard Content Area</h1>
+  <div class="oj-hybrid-padding">
+    <oj-buttonset-one  id="customPicker"
+                        class="oj-buttonset-width-equal demo-buttonset-tall"
+                        labelled-by="settings_demothemelabel"
+                        chroming="outlined"
+                        value="{{theme.demoTheme}}">
+      <oj-option value="none" id="theme_none" title="Sem Tema">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-cross02"></span>Sem Tema
+      </oj-option>
+      
+      <oj-option value="redwood" id="theme_redwood" title="Redwood">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-status-info"></span>Redwood
+      </oj-option>
+      
+      <oj-option value="stable" id="theme_stable" title="Stable">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-status-info"></span>Stable
+      </oj-option>
+      
+      <oj-option value="purple" id="theme_purple" title="Purple">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-status-info"></span>Purple
+      </oj-option>
+      
+      <oj-option value="alta" id="theme_alta" title="Alta">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-status-info"></span>Alta (JET 8.0)
+      </oj-option>
+      
+      
+      
+      <!-- <oj-option value="stealth" id="theme_dark" title="Stealth">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-list"></span>Dark
+      </oj-option>
+      <oj-option value="green" id="theme_green" title="green">Verde
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-status-confirmation"></span>
+      </oj-option>
+      <oj-option value="sanfrancisco" id="theme_sanfrancisco" title="San Francisco">San Francisco
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-grid"></span>
+      </oj-option> -->
+    </oj-buttonset-one>
+  </div>
+</div>
